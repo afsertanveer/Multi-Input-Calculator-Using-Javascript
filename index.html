@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Multi Input Calculator</title>
+  </head>
+  <body>
+    <div class="border-4 rounded-md mx-auto mt-20  w-1/3 p-8">
+      <div>
+        <input id="display-screen" value="0" class="border-4 text-3xl rounded-lg mx-auto w-full p-4 text-right" type="text"  disabled/>
+      </div>
+      <div  class="mx-auto w-full pt-8 mb-5">
+        <div class="grid grid-cols-4 gap-4">
+          <button class="py-1 rounded-md bg-gray-200 hover:bg-gray-400 font-semibold text-4xl" id="num-7">7</button>
+          <button class="py-1 rounded-md bg-gray-200 hover:bg-gray-400 font-semibold text-4xl" id="num-8">8</button>
+          <button class="py-1 rounded-md bg-gray-200 hover:bg-gray-400 font-semibold text-4xl" id="num-9">9</button>
+          <button class="py-1 rounded-md bg-gray-200 hover:bg-gray-400 font-semibold text-4xl" id="sub-sign">-</button>
+          <button class="py-1 rounded-md bg-gray-200 hover:bg-gray-400 font-semibold text-4xl" id="num-4">4</button>
+          <button class="py-1 rounded-md bg-gray-200 hover:bg-gray-400 font-semibold text-4xl" id="num-5">5</button>
+          <button class="py-1 rounded-md bg-gray-200 hover:bg-gray-400 font-semibold text-4xl" id="num-6">6</button>
+          <button class="py-1 rounded-md bg-gray-200 hover:bg-gray-400 font-semibold text-4xl " id="add-sign">+</button>
+          <button class="py-1 rounded-md bg-gray-200 hover:bg-gray-400 font-semibold text-4xl" id="num-1">1</button>
+          <button class="py-1 rounded-md bg-gray-200 hover:bg-gray-400 font-semibold text-4xl" id="num-2">2</button>
+          <button class="py-1 rounded-md bg-gray-200 hover:bg-gray-400 font-semibold text-4xl" id="num-3">3</button>
+          <button class="py-1 rounded-md bg-gray-200 hover:bg-gray-400 font-semibold text-4xl" id="mul-sign">*</button>
+          <button class="py-1 rounded-md bg-gray-200 hover:bg-gray-400 font-semibold text-4xl" id="num-zero">0</button>
+          <button class="py-1 rounded-md bg-gray-200 hover:bg-gray-400 font-semibold text-4xl" id="div-sign">/</button>
+          <button class="py-1 rounded-md bg-gray-200 hover:bg-gray-400 font-semibold text-4xl" id="equal-sign">=</button>
+          <button class="py-1 rounded-md bg-gray-200 hover:bg-gray-400 font-semibold text-4xl" id="all-clear">AC</button>
+      </div>
+    </div>
+    <script src="js/handleEvent.js"></script>
+    <script src="js/utilities.js"></script>
+  </body>
+</html>
